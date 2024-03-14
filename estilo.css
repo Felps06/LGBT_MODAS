@@ -18,4 +18,25 @@ p{
     text-align: center;
 
 }
-
+  .image-container {
+    display: flex;
+    justify-content: space-between; /* Para espaçamento uniforme entre as imagens */
+    /* justify-content: flex-start; Para alinhar as imagens no início */
+    /* justify-content: flex-end; Para alinhar as imagens no final */
+    /* justify-content: center; Para centralizar as imagens */
+    /* justify-content: space-around; Para espaçamento uniforme em torno das imagens */
+    /* justify-content: space-evenly; Para espaçamento uniforme em torno e dentro das imagens */
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os cartões quebrem para a próxima linha se não houver espaço suficiente */
+}
+.card {
+    width: calc(50% - 1rem); /* Para ocupar 50% do espaço, menos a margem */
+    margin-bottom: 20px;
+}

@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card-container {
+            display: flex;
+            gap: 60px; /* Espaço mínimo entre os cartões */
+            flex-wrap: wrap; /* Permite que os cartões quebrem para a próxima linha se não houver espaço suficiente */
+        }
+        .card {
+            width: calc(20% - 10px); /* Para ocupar 50% do espaço, menos a metade do espaço entre os cartões */
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -28,6 +38,9 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-disabled="true" href="./modaINF.html">Infantil</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-disabled="true" href="./modaINF.html">Contatos</a>
+              </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -38,6 +51,62 @@
       </nav>
       <p>tamanho 8</p>
       <p>tamanho 10</p>
+      <div class="card-container">
+        <div class="card">
+          <img src="../LGBT_MODAS/nike inf 1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blusão Nike Sportswear Club Fleece Infantil</h5>
+            <p class="card-text">R$ 279,99
+              ou pague no Pix e ganhe+ 5% off</p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../LGBT_MODAS/moletom-infantil-puma.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Moletom Infantil Puma Alpha</h5>
+            <p class="card-text">De: R$ 179,90 <br>
+              </p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../LGBT_MODAS/moletom-infantil-puma.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Moletom Infantil Puma Alpha</h5>
+            <p class="card-text">De: R$ 179,90 <br>
+              </p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="../LGBT_MODAS/nike inf 1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blusão Nike Sportswear Club Fleece Infantil</h5>
+            <p class="card-text">R$ 279,99
+              ou pague no Pix e ganhe+ 5% off</p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../LGBT_MODAS/moletom-infantil-puma.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Moletom Infantil Puma Alpha</h5>
+            <p class="card-text">De: R$ 179,90 <br>
+              </p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../LGBT_MODAS/moletom-infantil-puma.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Moletom Infantil Puma Alpha</h5>
+            <p class="card-text">De: R$ 179,90 <br>
+              </p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+      </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
