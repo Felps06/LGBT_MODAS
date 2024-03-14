@@ -40,3 +40,10 @@ p{
     width: calc(50% - 1rem); /* Para ocupar 50% do espaço, menos a margem */
     margin-bottom: 20px;
 }
+    .navbar-custom {
+        background-color: black; /* Define a cor de fundo como preto */
+    }
+
+    .navbar-custom .nav-link.active {
+        text-decoration: underline; /* Adiciona sublinhado à página ativa */
+    }
